@@ -3,12 +3,14 @@ include 'db.php';
 ?>
 
 <html>
+
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<table style="width:100%">
-    <?php
+    <table style="width:100%">
+        <?php
         function swap(&$a, &$b){
             $temp = $b;
             $b = $a;
@@ -49,6 +51,7 @@ include 'db.php';
             echo "</tr>";
         }
     ?>
-</table>
+    </table>
 </body>
+
 </html>
