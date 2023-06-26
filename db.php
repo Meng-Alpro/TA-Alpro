@@ -64,9 +64,9 @@
   ),
   9 => 
   array (
-    'nama' => 'zeko',
-    'id' => 9,
-    'harga' => 12000,
-    'stok' => 1,
+    'nama' => 'apple',
+    'id' => '34',
+    'harga' => '234567',
+    'stok' => '348',
   ),
 );
