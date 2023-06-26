@@ -25,4 +25,6 @@
             "stok" => 2
         )
     );
+
+    session_start();
 ?>

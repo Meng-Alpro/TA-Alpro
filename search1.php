@@ -38,8 +38,9 @@
         <div class="rightcolumn">
             <div class="card">
                 <h2>Filter Data</h2>
-                <a href="#">Urutkan ID Kecil ke Besar</a><br><br>
-                <a href="#">Urutkan ID Besar ke Kecil</a><br><br>
+                <a href="kecil">Urutkan ID Kecil ke Besar</a><br><br>
+                <a href="besar">Urutkan ID Besar ke Kecil</a><br><br>
+                <a href="input.php" style='padding-bottom: 20px'>Tambah Data Barang</a>
                 <form action="search1.php" method="get">
                     <input type="text" name="search" placeholder="Cari ID Barang">
                     <input type="submit" value="Cari">
