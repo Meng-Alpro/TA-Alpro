@@ -4,9 +4,9 @@ include 'db.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve the user input from the form
     $input_name = $_POST["name-product"];
-    $input_id = $_POST["id-product"];
-    $input_price = $_POST["price-product"];
-    $input_stock = $_POST["stock-product"];
+    $input_id = intval($_POST["id-product"]);
+    $input_price = intval($_POST["price-product"]);
+    $input_stock = intval($_POST["stock-product"]);
 
     $i = count($gudang);
     
