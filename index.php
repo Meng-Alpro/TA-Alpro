@@ -28,17 +28,17 @@
             <div class="card">
                 <h2>Data Barang</h2>
                 <?php
-        include 'Output/output.php';
+        include 'output.php';
         ?>
             </div>
         </div>
         <div class="rightcolumn">
             <div class="card">
                 <h2>Fitur</h2>
-                <a href="Sorting/kecil.php">Urutkan ID Kecil ke Besar</a>
-                <a href="Sorting/besar.php">Urutkan ID Besar ke Kecil</a>
-                <a href="Input-Product/input.php" style='padding-bottom: 20px'>Tambah Data Barang</a>
-                <form action="Search/search1.php" method="get">
+                <a href="kecil.php">Urutkan ID Kecil ke Besar</a>
+                <a href="besar.php">Urutkan ID Besar ke Kecil</a>
+                <a href="input.php" style='padding-bottom: 20px'>Tambah Data Barang</a>
+                <form action="search1.php" method="get">
                     <input type="text" name="search" placeholder="Cari ID Barang">
                     <input type="submit" value="Cari" style="color: #fff; background-color: #5664E9">
                 </form>
