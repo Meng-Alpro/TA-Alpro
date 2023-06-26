@@ -1,14 +1,16 @@
 <?php
-include 'db.php'; 
+include 'db.php';
 ?>
 
 <html>
+
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<table style="width:100%">
-    <?php
+    <table style="width:100%">
+        <?php
         function swap(&$a, &$b){
             $temp = $b;
             $b = $a;
@@ -28,13 +30,6 @@ include 'db.php';
             }
         }
 
-        // function test($arr){
-        //     $size = count($arr) - 1;
-        //     for($i=0;$i<$size;$i++){
-
-        //     }
-        // }
-
         echo "<tr>";
         echo "<th style='width:4%'>" . "ID" . "</td>";
         echo "<th>" . "Nama" . "</td>";
@@ -49,6 +44,7 @@ include 'db.php';
             echo "</tr>";
         }
     ?>
-</table>
+    </table>
 </body>
+
 </html>

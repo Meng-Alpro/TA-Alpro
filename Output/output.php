@@ -1,14 +1,16 @@
 <?php
-include 'db.php'; 
+include 'db.php';
 ?>
 
 <html>
+
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<table style="width:100%">
-    <?php
+    <table style="width:100%">
+        <?php
         echo "<tr>";
         echo "<th style='width:4%'>" . "ID" . "</td>";
         echo "<th>" . "Nama" . "</td>";
@@ -23,11 +25,7 @@ include 'db.php';
             echo "</tr>";
         }
     ?>
-</table>
+    </table>
 </body>
-</html>
 
-<!-- <form action="" method="get">
-    <input type="text" name="search" placeholder="Cari barang">
-    <input type="submit" value="Cari">
-</form> -->
+</html>
