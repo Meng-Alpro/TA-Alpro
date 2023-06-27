@@ -1,3 +1,58 @@
-# TA-Alpro
-This repository was created because of the demands of the lecturer of the Programming Algorithm course to give us assignments. We are students of Universitas Ahmad Dahlan Yogyakarta who are currently in semester 3
-Program yang ada pada repository ini berfungsi untuk melakukan pengelolaan gudang 
+# Tugas AKhir Algortima Pemograman
+
+## Gudang Sortir
+
+**Apa itu Gudang sortir?** Gudang sortir adalah sebuah fasilitas atau tempat penyimpanan yang digunakan untuk menyortir dan memilah barang atau produk sebelum dikirimkan ke lokasi tujuan akhir.
+
+## Deskripsi File
+
+File ini berisi data llllll
+
+## Kriteria
+
+- Mengimplementasikan array 2 dimensi
+- Mengimplementasikan fitur sorting (algoritma bebas)
+- Mengimplementasikan fitur searching (algoritma bebas)
+
+## Format File
+
+File ini berformat [PHP (_Hypertext Preprocessor_)](https://www.php.net/manual/en/intro-whatis.php "PHP (*Hypertext Preprocessor*)") yang berisikan:
+
+**ID** : kode unik untuk setiap produk
+**Nama**: nama produk dari suatu barang
+**Harga**: harga dari sebuah produk
+**Stok**: jumlah persediaan barang
+
+## Cloning File
+
+`git clone https://github.com/Meng-Alpro/TA-Alpro.git`
+
+## Petunjuk Penggunaan
+
+File dapat dibuka dengan **text editor** dan dapat di eksekusi oleh **server web** seperti [Apache](https://en.wikipedia.org/wiki/Apache "Apache") dan [Nginx](https://nginx.org/en/ "Nginx"), dengan menggunakan engine PHP yang sudah terpasang di server tersebut. Contoh seperti [XAMPP](https://www.apachefriends.org/download.html "XAMPP") Berikut langkah-langkahnya:
+
+1. Pastikan Anda sudah menginstal XAMPP di komputer Anda. [Download XAMPP](https://www.apachefriends.org/ "Download XAMPP").
+
+2. Setelah menginstal XAMPP, buka aplikasi XAMPP Control Panel. Anda bisa menemukannya dengan mencari "XAMPP" pada menu Start di Windows.
+
+3. Klik tombol **Start** untuk menjalankan server Apache dan MySQL. Jika sudah berjalan, Anda akan melihat tulisan **Running** pada sisi kanan nama server.
+
+4. Buka browser web, lalu ketikkan alamat **localhost** atau **127.0.0.1** pada baris alamat (address bar).
+
+5. Pada halaman utama XAMPP, klik link **phpMyAdmin** untuk membuka panel administrasi database MySQL.
+
+6. Untuk menjalankan file PHP, Anda harus menyimpan file tersebut di dalam direktori [htdocs](http://www.createafreewebsite.net/create-new-folder.html "htdocs") yang terletak pada direktori instalasi XAMPP. Misalnya, jika Anda menyimpan file **index.php** di dalam folder **projekku** di dalam direktori **htdocs**, maka alamat URL untuk mengakses file tersebut adalah "http://localhost/projekku/index.php".
+
+7. Buka browser web lagi, lalu ketikkan alamat URL seperti pada contoh di atas untuk mengakses file PHP tersebut.
+
+---
+
+### Pembagian Job
+
+| Programmer                                       | Paper | Poster | Presentasi | Production |
+| ------------------------------------------------ | ----- | ------ | ---------- | ---------- |
+| [Denta](https://github.com/Denta-ai "Denta")     | Null  | Kayess | Null       | Gustika    |
+| [Yoga](https://github.com/yorsyd "Yoga")         | Null  | Null   | Bintang    | Null       |
+| [Fadhli](https://github.com/fdhliakbar "Fadhli") |       |        |            |
+
+---
