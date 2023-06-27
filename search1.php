@@ -50,7 +50,7 @@
     </div>
 
     <div class="footer">
-        <h2>@Copyright <b>Meng-Alpro 2023</b></h2>
+        <p>@Copyright <b><a href="https://github.com/Meng-Alpro" target="_blank">Meng-Alpro 2023</a></b></p>
     </div>
 
 </body>
