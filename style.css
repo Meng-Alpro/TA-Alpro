@@ -1,10 +1,10 @@
 :root {
-  --primary: #5664E9;
+  --primary: #5664e9;
   --second: #171717;
   --bg: #e0e0e0;
 }
 
-*{
+* {
   box-sizing: border-box;
   color: var(--second);
 }
@@ -24,7 +24,7 @@ body {
 
 .header h1 {
   text-transform: uppercase;
-  color: #5664E9;
+  color: #5664e9;
   color: var(--primary);
   font-size: 50px;
 }
@@ -59,7 +59,7 @@ body {
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 75%;
 }
@@ -74,14 +74,14 @@ body {
   padding-left: 20px;
 }
 
-.card{
+.card {
   background-color: var(--second);
 }
 
-.card a{
+.card a {
   float: left;
   display: block;
-  color: var(--second);;
+  color: var(--second);
   text-align: center;
   padding-bottom: 5px;
   text-decoration: none;
@@ -122,27 +122,36 @@ body {
   margin-top: 20px;
 }
 
-.footer p, b{
+.footer p,
+b {
   color: white;
 }
 
-th{
-  background-color: #5664E9;
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+th {
+  background-color: #5664e9;
   color: white;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-td{
+td {
   padding-left: 5px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }

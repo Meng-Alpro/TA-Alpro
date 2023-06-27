@@ -9,64 +9,64 @@
   1 => 
   array (
     'id' => 3,
-    'nama' => 'Asus Rog',
+    'nama' => 'Lenovo Thinkpad',
     'harga' => 20000,
     'stok' => 3,
   ),
   2 => 
   array (
     'id' => 2,
-    'nama' => 'ASUS',
+    'nama' => 'Vacum Cleaner',
     'harga' => 15000,
     'stok' => 8,
   ),
   3 => 
   array (
     'id' => 1,
-    'nama' => 'ASUS',
+    'nama' => 'Kipas Angin',
     'harga' => 12000,
-    'stok' => 2,
+    'stok' => 12,
   ),
   4 => 
   array (
-    'nama' => 'ikan',
-    'id' => '4',
-    'harga' => '678',
-    'stok' => '898',
+    'nama' => 'Tuna kaleng',
+    'id' => 5,
+    'harga' => 3200,
+    'stok' => 20,
   ),
   5 => 
   array (
-    'nama' => 'ertet',
-    'id' => '9',
-    'harga' => '890',
-    'stok' => '67',
+    'nama' => 'Monitor LG 32inch',
+    'id' => 6,
+    'harga' => 52000,
+    'stok' => 32,
   ),
   6 => 
   array (
-    'nama' => 'jkl',
-    'id' => '3',
-    'harga' => '3456',
-    'stok' => '67',
+    'nama' => 'Container',
+    'id' => 7,
+    'harga' => 12000,
+    'stok' => 50,
   ),
   7 => 
   array (
-    'nama' => 'iopi',
-    'id' => '56',
-    'harga' => '6789',
-    'stok' => '87',
+    'nama' => 'Gandum',
+    'id' => 8,
+    'harga' => 6000,
+    'stok' => 87,
   ),
   8 => 
   array (
-    'nama' => 'netnot',
-    'id' => '23',
-    'harga' => '345',
-    'stok' => '56',
+    'nama' => 'Sepatu Kulit',
+    'id' => 9,
+    'harga' => 50000,
+    'stok' => 5,
   ),
   9 => 
   array (
-    'nama' => 'apple',
-    'id' => '34',
-    'harga' => '234567',
-    'stok' => '348',
+    'nama' => 'Mini Koper',
+    'id' => 10,
+    'harga' => 1200,
+    'stok' => 70,
   ),
 );

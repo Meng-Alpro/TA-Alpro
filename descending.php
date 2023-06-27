@@ -3,12 +3,14 @@ include 'db.php';
 ?>
 
 <html>
+
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<table style="width:100%">
-    <?php
+    <table style="width:100%">
+        <?php
         function swap(&$a, &$b){
             $temp = $b;
             $b = $a;
@@ -19,7 +21,7 @@ include 'db.php';
         $n = count($gudang);
         for ($i = 0; $i < $n-1; $i++) {
             for ($j = 0; $j < $n-$i-1; $j++) {
-                if ($gudang[$j] < $gudang[$j+1]) {
+                if ($gudang[$j]['id'] < $gudang[$j+1]['id']) {
                     swap($gudang[$j]['id'], $gudang[$j+1]['id']);
                     swap($gudang[$j]['nama'], $gudang[$j+1]['nama']);
                     swap($gudang[$j]['harga'], $gudang[$j+1]['harga']);
@@ -27,13 +29,6 @@ include 'db.php';
                 }
             }
         }
-
-        // function test($arr){
-        //     $size = count($arr) - 1;
-        //     for($i=0;$i<$size;$i++){
-
-        //     }
-        // }
 
         echo "<tr>";
         echo "<th style='width:4%'>" . "ID" . "</td>";
@@ -49,6 +44,7 @@ include 'db.php';
             echo "</tr>";
         }
     ?>
-</table>
+    </table>
 </body>
+
 </html>
