@@ -1,6 +1,19 @@
-# Tugas AKhir Algortima Pemograman
+# Tugas Akhir Algoritma Pemograman
 
-## Gudang Sortir
+[TOCM]
+
+[TOC]
+
+Gudang Sortir
+Deskripsi File
+Kriteria
+Format File
+Cloning File
+Petunjuk Penggunaan
+Pembagian Job
+FAQ
+
+## Apa itu Gudang Sortir
 
 **Apa itu Gudang sortir?** Gudang sortir adalah sebuah fasilitas atau tempat penyimpanan yang digunakan untuk menyortir dan memilah barang atau produk sebelum dikirimkan ke lokasi tujuan akhir.
 
@@ -55,4 +68,13 @@ File dapat dibuka dengan **text editor** dan dapat di eksekusi oleh **server web
 | [Yoga](https://github.com/yorsyd "Yoga")         | Null  | Null   | Bintang    | Null       |
 | [Fadhli](https://github.com/fdhliakbar "Fadhli") |       |        |            |
 
----
+### FAQ
+
+**Q: Apakah file ini dapat dijalankan tanpa menggunakan server web?**
+A: Tidak, file ini harus dijalankan menggunakan server web yang sudah terpasang
+
+**Q: Apa itu gudang sortir?**
+A: Gudang sortir adalah fasilitas yang digunakan untuk menyimpan dan mengelola persediaan barang. Fasilitas ini dilengkapi dengan sistem pengelolaan stok otomatis dan peralatan teknologi tinggi untuk memastikan efisiensi operasional.
+
+**Q: Apa jenis barang yang bisa disimpan di gudang sortir?**
+A: Gudang sortir dapat digunakan untuk menyimpan berbagai jenis barang mulai dari makanan, minuman, bahan baku, alat elektronik, pakaian, obat-obatan, dan banyak lagi.
