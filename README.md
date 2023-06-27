@@ -1,17 +1,14 @@
-# Tugas Akhir Algoritma Pemograman
+# Table of Contents
 
-[TOCM]
-
-[TOC]
-
-Gudang Sortir
-Deskripsi File
-Kriteria
-Format File
-Cloning File
-Petunjuk Penggunaan
-Pembagian Job
-FAQ
+- [Table of Contents](#table-of-contents)
+  - [Apa itu Gudang Sortir](#apa-itu-gudang-sortir)
+  - [Deskripsi File](#deskripsi-file)
+  - [Kriteria](#kriteria)
+  - [Format File](#format-file)
+  - [Cloning File](#cloning-file)
+  - [Petunjuk Penggunaan](#petunjuk-penggunaan)
+    - [Pembagian Job](#pembagian-job)
+    - [FAQ](#faq)
 
 ## Apa itu Gudang Sortir
 
