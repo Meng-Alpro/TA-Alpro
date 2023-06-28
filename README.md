@@ -23,6 +23,7 @@ File ini berisi data llllll
 - Mengimplementasikan array 2 dimensi
 - Mengimplementasikan fitur sorting (algoritma bebas)
 - Mengimplementasikan fitur searching (algoritma bebas)
+- Mengimplementasikan GUI
 
 ## Format File
 
