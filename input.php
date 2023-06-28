@@ -27,21 +27,28 @@
         <div class="leftcolumn">
             <div class="card">
                 <h2>Input Data Product</h2>
+                <div class="ilang">
                 <form action="storedData.php" method="post">
-                    <label for="input-product">Nama Product : </label>
-                    <input type="text" name="name-product" placeholder="Masukkan nama product">
-                    <br><br>
-                    <label for="id-product">ID Product : </label>
-                    <input type="number" name="id-product" placeholder="Masukkan id product">
-                    <br><br>
-                    <label for="price-product">Harga Product : </label>
-                    <input type="number" name="price-product" placeholder="Masukkan Harga product">
-                    <br><br>
-                    <label for="stok-product">Stok Produk : </label>
-                    <input type="number" name="stock-product" placeholder="Masukkan stok product">
-                    <br><br>
-                    <input type="submit" value="Submit">
+                    <table>
+                        <tr style="border-style: none">
+                            <td><label for="input-product">Nama Produk</label></td>
+                            <td> : <input type="text" name="name-product" placeholder="Masukkan nama product"></td>
+                        <tr>
+                            <td><label for="id-product">ID Produk</label></td>
+                            <td> : <input type="number" name="id-product" placeholder="Masukkan id product"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="price-product">Harga Produk</label></td>
+                            <td> : <input type="number" name="price-product" placeholder="Masukkan Harga product"></td>
+                        </tr>
+                            <td><label for="stok-product">Stok Produk</label></td>
+                            <td> : <input type="number" name="stock-product" placeholder="Masukkan stok product"></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <input type="submit" value="Input" style="color: #fff; background-color: #5664E9">
                 </form>
+                </div>
             </div>
         </div>
 

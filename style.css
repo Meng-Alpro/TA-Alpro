@@ -122,14 +122,18 @@ body {
   margin-top: 20px;
 }
 
-.footer p,
-b {
+.footer p {
   color: white;
 }
 
 .footer a {
   color: white;
   text-decoration: none;
+}
+
+.ilang table, th, td {
+  border-style: none;
+  border-collapse: collapse;
 }
 
 th {

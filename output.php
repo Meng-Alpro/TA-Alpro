@@ -19,7 +19,7 @@ include 'db.php';
         echo "<th>" . "Nama" . "</th>";
         echo "<th>" . "Harga" . "</th>";
         echo "<th style='width:6%'>" . "Stok" . "</th>";
-        echo "<th>" . "Total" . "</th>";
+        echo "<th>" . "Harga x Stok" . "</th>";
         for($i = 0; $i < count($gudang); $i++){
             $total = $gudang[$i]['harga'] * $gudang[$i]['stok'];
             $totalStok = $totalStok + $gudang[$i]['stok'];
@@ -36,10 +36,10 @@ include 'db.php';
         }
     ?>
         <tr>
-            <td colspan="2" style="color: ##5664e9"><b>Item: <?php count($gudang) ?></b></td>
-            <td><?php echo $totalHarga ?></td>
-            <td><?php echo $totalStok ?></td>
-            <td><?php echo $totalOfTotal ?></td>
+            <td colspan="2"><b style="color: #000">Item: <?php echo count($gudang) ?></b></td>
+            <td><b style="color: #000"><?php echo $totalHarga ?></b></td>
+            <td><b style="color: #000"><?php echo $totalStok ?></b></td>
+            <td><b style="color: #000"><?php echo $totalOfTotal ?></b></td>
         </tr>
     </table>
 </body>
