@@ -81,3 +81,4 @@ A: Gudang sortir dapat digunakan untuk menyimpan berbagai jenis barang mulai dar
 ---
 
 ### Terima Kasih
+![Mienar](https://github.com/Meng-Alpro/TA-Alpro/assets/104522615/d26e776a-ebaa-44c7-8edb-decf1667744c)
