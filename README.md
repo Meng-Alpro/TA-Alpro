@@ -67,11 +67,11 @@ File dapat dibuka dengan **text editor** dan dapat di eksekusi oleh **server web
 
 ### FAQ
 
-**Q: Apakah file ini dapat dijalankan tanpa menggunakan server web?**
+**Q: Apakah file ini dapat dijalankan tanpa menggunakan server web?**<br>
 A: Tidak, file ini harus dijalankan menggunakan server web yang sudah terpasang
 
-**Q: Apa itu gudang sortir?**
-A: Gudang sortir adalah fasilitas yang digunakan untuk menyimpan dan mengelola persediaan barang. Fasilitas ini dilengkapi dengan sistem pengelolaan stok otomatis dan peralatan teknologi tinggi untuk memastikan efisiensi operasional.
+**Q: Apa itu gudang sortir?** <br>
+A: Gudang sortir adalah fasilitas yang digunakan untuk menyimpan dan mengelola persediaan barang. Fasilitas ini dilengkapi dengan sistem pengelolaan stok otomatis dan peralatan teknologi tinggi untuk memastikan efisiensi operasional. <br>
 
-**Q: Apa jenis barang yang bisa disimpan di gudang sortir?**
-A: Gudang sortir dapat digunakan untuk menyimpan berbagai jenis barang mulai dari makanan, minuman, bahan baku, alat elektronik, pakaian, obat-obatan, dan banyak lagi.
+**Q: Apa jenis barang yang bisa disimpan di gudang sortir?** <br>
+A: Gudang sortir dapat digunakan untuk menyimpan berbagai jenis barang mulai dari makanan, minuman, bahan baku, alat elektronik, pakaian, obat-obatan, dan banyak lagi. <br>
