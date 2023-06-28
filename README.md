@@ -9,6 +9,7 @@
   - [Petunjuk Penggunaan](#petunjuk-penggunaan)
     - [Pembagian Job](#pembagian-job)
     - [FAQ](#faq)
+    - [Terima Kasih](#terima-kasih)
 
 ## Apa itu Gudang Sortir
 
@@ -76,3 +77,7 @@ A: Gudang sortir adalah fasilitas yang digunakan untuk menyimpan dan mengelola p
 
 **Q: Apa jenis barang yang bisa disimpan di gudang sortir?** <br>
 A: Gudang sortir dapat digunakan untuk menyimpan berbagai jenis barang mulai dari makanan, minuman, bahan baku, alat elektronik, pakaian, obat-obatan, dan banyak lagi. <br>
+
+---
+
+### Terima Kasih
