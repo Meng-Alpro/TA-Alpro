@@ -22,8 +22,8 @@
     </div>
 
     <div class="topnav">
-        <a href="#">Input Data</a>
-        </a>
+        <!-- <a href="#">Input Data</a>
+        </a> -->
     </div>
 
     <div class="row">
