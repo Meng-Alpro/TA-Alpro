@@ -69,4 +69,11 @@
     'harga' => 1200,
     'stok' => 70,
   ),
+  10 => 
+  array (
+    'nama' => 'Fantech',
+    'id' => 13,
+    'harga' => 1500000,
+    'stok' => 5,
+  ),
 );
