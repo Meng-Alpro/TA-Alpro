@@ -79,10 +79,9 @@ body {
 }
 
 .card a {
-  float: left;
   display: block;
   color: var(--second);
-  text-align: center;
+  text-align: left;
   padding-bottom: 5px;
   text-decoration: none;
 }
