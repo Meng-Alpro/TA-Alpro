@@ -63,7 +63,7 @@ File dapat dibuka dengan **text editor** dan dapat di eksekusi oleh **server web
 
 | Programmer                                       | Paper | Poster | Presentasi | Production |
 | ------------------------------------------------ | ----- | ------ | ---------- | ---------- |
-| [Denta](https://github.com/Denta-ai "Denta")     | Null  | Kayess | Null       | Gustika    |
+| [Denta](https://github.com/Denta-ai "Denta")     | Null  | Kayess | Aisyah       | Gustika    |
 | [Yoga](https://github.com/yorsyd "Yoga")         | Null  | Null   | Bintang    | Null       |
 | [Fadhli](https://github.com/fdhliakbar "Fadhli") |       |        |            |
 
