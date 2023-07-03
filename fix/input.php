@@ -13,13 +13,7 @@
 </head>
 
 <body>
-
-    <div class="header">
-        <a href="index.php">
-            <h1>MENG-ALPRO</h1>
-        </a>
-        <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
-    </div>
+    <?php include 'header.php'; ?>
 
     <div class="topnav"></div>
 
@@ -28,26 +22,34 @@
             <div class="card">
                 <h2>Input Data Product</h2>
                 <div class="ilang">
-                <form action="storedData.php" method="post">
-                    <table style="border-style: none">
-                        <tr>
-                            <td style="border-style: none; padding: 5px"><label for="input-product">Nama Produk</label></td>
-                            <td style="border-style: none"> : <input type="text" name="name-product" placeholder="Masukkan nama product"></td>
-                        <tr>
-                            <td style="border-style: none; padding: 5px""><label for="id-product">ID Produk</label></td>
-                            <td style="border-style: none"> : <input type="number" name="id-product" placeholder="Masukkan id product"></td>
-                        </tr>
-                        <tr>
-                            <td style="border-style: none; padding: 5px""><label for="price-product">Harga Produk</label></td>
-                            <td style="border-style: none"> : <input type="number" name="price-product" placeholder="Masukkan Harga product"></td>
-                        </tr>
-                            <td style="border-style: none; padding: 5px""><label for="stok-product">Stok Produk</label></td>
-                            <td style="border-style: none"> : <input type="number" name="stock-product" placeholder="Masukkan stok product"></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <input type="submit" value="Input" style="color: #fff; background-color: #5664E9">
-                </form>
+                    <form action="storedData.php" method="post">
+                        <table style="border-style: none">
+                            <tr>
+                                <td style="border-style: none; padding: 5px"><label for="input-product">Nama
+                                        Produk</label></td>
+                                <td style="border-style: none"> : <input type="text" name="name-product"
+                                        placeholder="Masukkan nama product"></td>
+                            <tr>
+                                <td style="border-style: none; padding: 5px""><label for=" id-product">ID Produk</label>
+                                </td>
+                                <td style="border-style: none"> : <input type="number" name="id-product"
+                                        placeholder="Masukkan id product"></td>
+                            </tr>
+                            <tr>
+                                <td style="border-style: none; padding: 5px""><label for=" price-product">Harga
+                                    Produk</label></td>
+                                <td style="border-style: none"> : <input type="number" name="price-product"
+                                        placeholder="Masukkan Harga product"></td>
+                            </tr>
+                            <td style="border-style: none; padding: 5px""><label for=" stok-product">Stok Produk</label>
+                            </td>
+                            <td style="border-style: none"> : <input type="number" name="stock-product"
+                                    placeholder="Masukkan stok product"></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <input type="submit" value="Input" style="color: #fff; background-color: #5664E9">
+                    </form>
                 </div>
             </div>
         </div>

@@ -13,13 +13,7 @@
 </head>
 
 <body>
-
-    <div class="header">
-        <a href="index.php">
-            <h1>MENG-ALPRO</h1>
-        </a>
-        <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
-    </div>
+    <?php include 'header.php'; ?>
 
     <div class="topnav"></div>
 

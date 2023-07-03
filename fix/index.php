@@ -13,13 +13,7 @@
 </head>
 
 <body>
-
-    <div class="header">
-        <a href="index.php">
-            <h1>MENG-ALPRO</h1>
-        </a>
-        <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
-    </div>
+    <?php include 'header.php'; ?>
 
     <div class="topnav"></div>
 
@@ -29,8 +23,8 @@
                 <h2>Data Barang</h2>
 
                 <table style="width:100%">
-                
-                <?php
+
+                    <?php
                 include 'db.php';
                 $totalStok = 0;
                 $totalHarga = 0;
@@ -57,12 +51,12 @@
                     echo "</tr>";
                 }
                 ?>
-                <tr>
-                    <td colspan="2"><b style="color: #000">Item: <?php echo count($gudang) ?></b></td>
-                    <td><b style="color: #000"><?php echo $totalHarga ?></b></td>
-                    <td><b style="color: #000"><?php echo $totalStok ?></b></td>
-                    <td><b style="color: #000"><?php echo $totalOfTotal ?></b></td>
-                </tr>
+                    <tr>
+                        <td colspan="2"><b style="color: #000">Item: <?php echo count($gudang) ?></b></td>
+                        <td><b style="color: #000"><?php echo $totalHarga ?></b></td>
+                        <td><b style="color: #000"><?php echo $totalStok ?></b></td>
+                        <td><b style="color: #000"><?php echo $totalOfTotal ?></b></td>
+                    </tr>
                 </table>
             </div>
         </div>

@@ -13,14 +13,9 @@
 </head>
 
 <body>
+    <?php include 'header.php'; ?>
 
-    <div class="header">
-        <a href="index.php">
-            <h1>MENG-ALPRO</h1>
-        </a>
-        <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
-    </div>
-
+    <!-- garis line bawah warna ungu -->
     <div class="topnav"></div>
 
     <div class="row">
