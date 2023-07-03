@@ -65,7 +65,7 @@ File dapat dibuka dengan **text editor** dan dapat di eksekusi oleh **server web
 | ------------------------------------------------ | ------ | ------ | ---------- | ---------- |
 | [Denta](https://github.com/Denta-ai "Denta")     | Evinda | Kayess | Aisyah     | Gustika    |
 | [Yoga](https://github.com/yorsyd "Yoga")         | Nadya  | Null   | Bintang    | Zeko       |
-| [Fadhli](https://github.com/fdhliakbar "Fadhli") |        |        |            |
+| [Fadhli](https://github.com/fdhliakbar "Fadhli") | Qori   |        |            |
 
 ### FAQ
 
