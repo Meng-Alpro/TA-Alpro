@@ -61,11 +61,11 @@ File dapat dibuka dengan **text editor** dan dapat di eksekusi oleh **server web
 
 ### Pembagian Job
 
-| Programmer                                       | Paper | Poster | Presentasi | Production |
-| ------------------------------------------------ | ----- | ------ | ---------- | ---------- |
-| [Denta](https://github.com/Denta-ai "Denta")     | Null  | Kayess | Aisyah       | Gustika    |
-| [Yoga](https://github.com/yorsyd "Yoga")         | Null  | Null   | Bintang    | Null       |
-| [Fadhli](https://github.com/fdhliakbar "Fadhli") |       |        |            |
+| Programmer                                       | Paper  | Poster | Presentasi | Production |
+| ------------------------------------------------ | ------ | ------ | ---------- | ---------- |
+| [Denta](https://github.com/Denta-ai "Denta")     | Evinda | Kayess | Aisyah     | Gustika    |
+| [Yoga](https://github.com/yorsyd "Yoga")         | Nadya  | Null   | Bintang    | Zeko       |
+| [Fadhli](https://github.com/fdhliakbar "Fadhli") |        |        |            |
 
 ### FAQ
 
@@ -81,4 +81,5 @@ A: Gudang sortir dapat digunakan untuk menyimpan berbagai jenis barang mulai dar
 ---
 
 ### Terima Kasih
+
 ![Mienar](https://github.com/Meng-Alpro/TA-Alpro/assets/104522615/d26e776a-ebaa-44c7-8edb-decf1667744c)
