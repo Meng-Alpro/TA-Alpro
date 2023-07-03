@@ -20,9 +20,6 @@
         </a>
         <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
     </div>
-
-    <div class="topnav"></div>
-
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
