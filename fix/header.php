@@ -15,8 +15,8 @@
 <body>
     <div class="header">
         <a href="index.php">
-            <h1>MENG-ALPRO</h1>
+            <h1>INI GUDANG</h1>
         </a>
-        <p>Sistem Pengelolaan Gudang Demi Menyelesaikan Tugas UwU</p>
+        <p>Suatu Sistem yang Berfungsi untuk Mengelola Barang-barang di Gudang</p>
     </div>
 </body>
