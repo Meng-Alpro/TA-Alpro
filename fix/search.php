@@ -67,10 +67,10 @@
             </div>
         </div>
         <?php include 'sidebar.php' ?>
-        <div class="footer">
-            <p>@Copyright <b><a href="https://github.com/Meng-Alpro" target="_blank">Meng-Alpro 2023</a></b></p>
-        </div>
-
+    </div>
+    <div class="footer">
+        <p>@Copyright <b><a href="https://github.com/Meng-Alpro" target="_blank">Meng-Alpro 2023</a></b></p>
+    </div>
 </body>
 
 </html>
