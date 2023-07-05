@@ -45,10 +45,10 @@
                     }
 
                     echo "<tr>";
-                    echo "<th style='width:4%'>" . "ID" . "</td>";
-                    echo "<th>" . "Nama" . "</td>";
-                    echo "<th>" . "Harga" . "</td>";
-                    echo "<th style='width:6%'>" . "Stok" . "</td>";
+                    echo "<th style='width:4%'>" . "ID" . "</th>";
+                    echo "<th>" . "Nama" . "</th>";
+                    echo "<th>" . "Harga" . "</th>";
+                    echo "<th style='width:6%'>" . "Stok" . "</th>";
                     for($i = 0; $i < count($gudang); $i++){
                         echo "<tr>";
                         echo "<td>" . $gudang[$i]['id'] . "</td>";
