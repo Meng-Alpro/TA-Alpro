@@ -48,7 +48,8 @@
                             </tr>
                         </table>
                         <br>
-                        <input type="submit" value="Input" style="color: #fff; background-color: #5664E9">
+                        <input type="submit" value="Input" style="color: #fff; background-color: #5664E9"
+                            onclick="inputAlert()">
                     </form>
                 </div>
             </div>
@@ -59,7 +60,11 @@
     <div class="footer">
         <p>@Copyright <b><a href="https://github.com/Meng-Alpro" target="_blank">Meng-Alpro 2023</a></b></p>
     </div>
-
+    <script>
+    function inputAlert() {
+        alert("Data produk telah berhasil terinput!");
+    }
+    </script>
 </body>
 
 </html>

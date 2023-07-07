@@ -16,8 +16,8 @@
     <div class="rightcolumn">
         <div class="card">
             <h2>Fitur</h2>
-            <a href="kecil.php">Urutkan ID Kecil ke Besar</a>
-            <a href="besar.php">Urutkan ID Besar ke Kecil</a>
+            <a href="kecil.php" onclick="ascending()">Urutkan ID Kecil ke Besar</a>
+            <a href="besar.php" onclick="descending()">Urutkan ID Besar ke Kecil</a>
             <a href="input.php" style='padding-bottom: 20px'>Tambah Data Barang</a>
             <form action="search.php" method="get">
                 <input type="text" name="search" placeholder="Cari ID Barang">
@@ -25,4 +25,13 @@
             </form>
         </div>
     </div>
+    <script>
+    function ascending() {
+        alert("Data berhasil diurutkan dari kecil - besar!");
+    }
+
+    function descending() {
+        alert("Data berhasil diurutkan dari besar - kecil!");
+    }
+    </script>
 </body>
