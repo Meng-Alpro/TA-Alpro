@@ -2,7 +2,6 @@
 
 - [Table of Contents](#table-of-contents)
   - [Apa itu Gudang Sortir](#apa-itu-gudang-sortir)
-  - [Deskripsi File](#deskripsi-file)
   - [Kriteria](#kriteria)
   - [Format File](#format-file)
   - [Cloning File](#cloning-file)
@@ -14,10 +13,6 @@
 ## Apa itu Gudang Sortir
 
 **Apa itu Gudang sortir?** Gudang sortir adalah sebuah fasilitas atau tempat penyimpanan yang digunakan untuk menyortir dan memilah barang atau produk sebelum dikirimkan ke lokasi tujuan akhir.
-
-## Deskripsi File
-
-File ini berisi data llllll
 
 ## Kriteria
 
@@ -64,7 +59,7 @@ File dapat dibuka dengan **text editor** dan dapat di eksekusi oleh **server web
 | Programmer                                       | Paper  | Poster | Presentasi | Production |
 | ------------------------------------------------ | ------ | ------ | ---------- | ---------- |
 | [Denta](https://github.com/Denta-ai "Denta")     | Evinda | Kayess | Aisyah     | Gustika    |
-| [Yoga](https://github.com/yorsyd "Yoga")         | Nadya  | Null   | Bintang    | Zeko       |
+| [Yoga](https://github.com/yorsyd "Yoga")         | Nadya  |        | Bintang    | Zeko       |
 | [Fadhli](https://github.com/fdhliakbar "Fadhli") | Qori   |        |            |
 
 ### FAQ
