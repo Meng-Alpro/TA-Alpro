@@ -30,9 +30,13 @@
                         $b = $a;
                         $a = $temp;
                     }
-
-                    function lengthArray($arr){
-                        return count($arr);
+                    
+                    function lengthArray($arr) {
+                        $index = 0;
+                        while(isset($arr[$index])) {
+                            $index = $index + 1;
+                        }
+                        return $index;
                     }
 
                     // sorting

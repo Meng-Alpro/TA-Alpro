@@ -27,12 +27,12 @@
                 <?php
                 include 'db.php';
 
-                function lengthArray($arr){
-                    $length = 0;
-                    foreach ($arr as $element) {
-                        $length++;
+                function lengthArray($arr) {
+                    $index = 0;
+                    while(isset($arr[$index])) {
+                        $index = $index + 1;
                     }
-                    return $length;
+                    return $index;
                 }
 
                 if (isset($_GET['search'])) {
