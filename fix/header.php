@@ -17,6 +17,6 @@
         <a href="index.php">
             <h1>INI GUDANG</h1>
         </a>
-        <p>Suatu Sistem yang Berfungsi untuk Mengelola Barang-barang di Gudang</p>
+        <p>Suatu Sistem yang Berfungsi untuk Mengelola Barang-Barang di Gudang</p>
     </div>
 </body>
