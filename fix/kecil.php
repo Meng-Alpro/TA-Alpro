@@ -33,7 +33,11 @@
                     }
 
                     function lengthArray($arr){
-                        return count($arr);
+                        $length = 0;
+                        foreach ($arr as $element) {
+                            $length++;
+                        }
+                        return $length;
                     }
 
                     // sorting

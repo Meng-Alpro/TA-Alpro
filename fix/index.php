@@ -31,8 +31,13 @@
                     $totalOfTotal = 0;
 
                     function lengthArray($arr){
-                        return count($arr);
+                        $length = 0;
+                        foreach ($arr as $element) {
+                            $length++;
+                        }
+                        return $length;
                     }
+
 
                     echo "<tr>";
                     echo "<th style='width:4%'>" . "ID" . "</th>";
@@ -69,8 +74,7 @@
         <?php include 'sidebar.php' ?>
     </div>
     <div class="footer">
-        <p>&copy; <?php echo date("Y"); ?> <b><a href="https://github.com/Meng-Alpro" target="_blank">Meng-Alpro</a></b>
-        </p>
+        <p>@Copyright <b><a href="https://github.com/Meng-Alpro" target="_blank">Meng-Alpro 2023</a></b></p>
     </div>
 
 </body>

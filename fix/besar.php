@@ -31,14 +31,6 @@
                         $a = $temp;
                     }
 
-                    // function lenghtArray($arr){
-                    //     $index = 0;
-                    //     while($arr[$index] != NULL){
-                    //         $index = $index + 1;
-                    //     }
-                    //     return $index;
-                    // }
-
                     function lengthArray($arr){
                         return count($arr);
                     }

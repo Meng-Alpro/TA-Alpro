@@ -28,7 +28,11 @@
                 include 'db.php';
 
                 function lengthArray($arr){
-                    return count($arr);
+                    $length = 0;
+                    foreach ($arr as $element) {
+                        $length++;
+                    }
+                    return $length;
                 }
 
                 if (isset($_GET['search'])) {
