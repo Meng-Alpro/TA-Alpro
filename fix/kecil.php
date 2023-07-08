@@ -30,9 +30,16 @@
                         $b = $a;
                         $a = $temp;
                     }
+                    function lenghtArray($arr){
+                        $index = 0;
+                        while($arr[$index] != NULL){
+                            $index = $index + 1;
+                        }
+                        return $index;
+                    }
 
                     // sorting
-                    $n = count($gudang);
+                    $n = lenghtArray($gudang);
                     for ($i = 0; $i < $n-1; $i++) {
                         for ($j = 0; $j < $n-$i-1; $j++) {
                             if ($gudang[$j]['id'] > $gudang[$j+1]['id']) {
@@ -49,7 +56,7 @@
                     echo "<th>" . "Nama" . "</th>";
                     echo "<th>" . "Harga" . "</th>";
                     echo "<th style='width:6%'>" . "Stok" . "</th>";
-                    for($i = 0; $i < count($gudang); $i++){
+                    for($i = 0; $i < lenghtArray($gudang); $i++){
                         echo "<tr>";
                         echo "<td>" . $gudang[$i]['id'] . "</td>";
                         echo "<td>" . $gudang[$i]['nama'] . "</td>";
