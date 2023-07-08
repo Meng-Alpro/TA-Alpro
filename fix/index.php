@@ -24,17 +24,14 @@
 
                 <table style="width:100%">
 
-                <?php
+                    <?php
                     include 'db.php';
                     $totalStok = 0;
                     $totalHarga = 0;
                     $totalOfTotal = 0;
-                    function lenghtArray($arr){
-                        $index = 0;
-                        while($arr[$index] != NULL){
-                            $index = $index + 1;
-                        }
-                        return $index;
+
+                    function lengthArray($arr){
+                        return count($arr);
                     }
 
                     echo "<tr>";
@@ -43,23 +40,25 @@
                     echo "<th>" . "Harga" . "</th>";
                     echo "<th style='width:6%'>" . "Stok" . "</th>";
                     echo "<th>" . "Harga x Stok" . "</th>";
-                    for($i = 0; $i < lenghtArray($gudang); $i++){
+                    echo "</tr>";
+
+                    for ($i = 0; $i < lengthArray($gudang); $i++) {
                         $total = $gudang[$i]['harga'] * $gudang[$i]['stok'];
                         $totalStok = $totalStok + $gudang[$i]['stok'];
                         $totalHarga = $totalHarga + $gudang[$i]['harga'];
-                        $totalOfTotal = $totalOfTotal + $total; 
+                        $totalOfTotal = $totalOfTotal + $total;
 
                         echo "<tr>";
-                            echo "<td>" . $gudang[$i]['id'] . "</td>";
-                            echo "<td>" . $gudang[$i]['nama'] . "</td>";
-                            echo "<td>" . $gudang[$i]['harga'] . "</td>";
-                            echo "<td>" . $gudang[$i]['stok'] . "</td>";
-                            echo "<td>" . $total . "</td>";
+                        echo "<td>" . $gudang[$i]['id'] . "</td>";
+                        echo "<td>" . $gudang[$i]['nama'] . "</td>";
+                        echo "<td>" . $gudang[$i]['harga'] . "</td>";
+                        echo "<td>" . $gudang[$i]['stok'] . "</td>";
+                        echo "<td>" . $total . "</td>";
                         echo "</tr>";
                     }
-                ?>
+                    ?>
                     <tr>
-                        <td colspan="2"><b style="color: #000">Item: <?php echo lenghtArray($gudang) ?></b></td>
+                        <td colspan="2"><b style="color: #000">Item: <?php echo lengthArray($gudang) ?></b></td>
                         <td><b style="color: #000"><?php echo $totalHarga ?></b></td>
                         <td><b style="color: #000"><?php echo $totalStok ?></b></td>
                         <td><b style="color: #000"><?php echo $totalOfTotal ?></b></td>
@@ -70,7 +69,8 @@
         <?php include 'sidebar.php' ?>
     </div>
     <div class="footer">
-        <p>@Copyright <b><a href="https://github.com/Meng-Alpro" target="_blank">Meng-Alpro 2023</a></b></p>
+        <p>&copy; <?php echo date("Y"); ?> <b><a href="https://github.com/Meng-Alpro" target="_blank">Meng-Alpro</a></b>
+        </p>
     </div>
 
 </body>

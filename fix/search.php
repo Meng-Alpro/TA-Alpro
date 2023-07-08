@@ -27,20 +27,16 @@
                 <?php
                 include 'db.php';
 
-                function lenghtArray($arr){
-                    $index = 0;
-                    while($arr[$index] != NULL){
-                        $index = $index + 1;
-                    }
-                    return $index;
+                function lengthArray($arr){
+                    return count($arr);
                 }
-        
+
                 if (isset($_GET['search'])) {
                     $search = $_GET['search'];
                     $ada = false;
                     $indeks = 0;
 
-                    for($i = 0; $i < lenghtArray($gudang); $i++){
+                    for($i = 0; $i < lengthArray($gudang); $i++){
                         if($gudang[$i]['id'] == $search){
                                 $hasilPencarian[$indeks]['id'] = $gudang[$i]['id'];
                                 $hasilPencarian[$indeks]['nama'] = $gudang[$i]['nama'];
@@ -58,7 +54,7 @@
                         echo "<th>" . "Nama" . "</th>";
                         echo "<th>" . "Harga" . "</th>";
                         echo "<th style='width:6%'>" . "Stok" . "</th>";
-                        for($i = 0; $i < lenghtArray($hasilPencarian); $i++){
+                        for($i = 0; $i < lengthArray($hasilPencarian); $i++){
                             echo "<tr>";
                             echo "<td>" . $hasilPencarian[$i]['id'] . "</td>";
                             echo "<td>" . $hasilPencarian[$i]['nama'] . "</td>";
