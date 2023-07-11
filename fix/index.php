@@ -38,8 +38,6 @@
                         return $index;
                     }
 
-
-
                     echo "<tr>";
                     echo "<th style='width:4%'>" . "ID" . "</th>";
                     echo "<th>" . "Nama" . "</th>";
