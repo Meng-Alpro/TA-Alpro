@@ -2,7 +2,6 @@
 include 'db.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Retrieve the user input from the form
     $input_name = $_POST["name-product"];
     $input_id = intval($_POST["id-product"]);
     $input_price = intval($_POST["price-product"]);
@@ -17,10 +16,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $gudang[$i]['stok'] = $input_stock
     );
 
-    // Display the 2D array
-    echo "<pre>";
-    print_r($gudang);
-    echo "</pre>";
+    // echo "<pre>";
+    // print_r($gudang);
+    // echo "</pre>";
+
+    header("Location: index.php");
 
     file_put_contents('db.php', '<?php $gudang = ' . var_export($gudang, true) . ';');
 }
