@@ -16,6 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $gudang[$i]['stok'] = $input_stock
     );
 
+    // Sebelum
     // echo "<pre>";
     // print_r($gudang);
     // echo "</pre>";
