@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // print_r($gudang);
     // echo "</pre>";
 
-    header("Location: index.php");
+    header("Location: input.php");
 
     file_put_contents('db.php', '<?php $gudang = ' . var_export($gudang, true) . ';');
 }
